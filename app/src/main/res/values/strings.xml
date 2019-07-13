@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="toolbar_title">Rick and Morty</string>
+    <string name="action_search">Search</string>
+    <string name="menu_home">Home</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="network_unavailable">Oops! Network Unavailable</string>
+</resources>
