@@ -32,7 +32,7 @@ public class ServiceGenerator {
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl(Constants.BASE_URL)
-            //.addCallAdapterFactory(RetryCallbackAdapter);
+            .addCallAdapterFactory(RetryCallAdapterFactory.create())
             .client(httpClient)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build();
